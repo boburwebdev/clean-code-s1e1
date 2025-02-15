@@ -27,7 +27,8 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.input-task, .label-task {
+.input-task, 
+.label-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -39,10 +40,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 .btn {
@@ -115,7 +118,7 @@ input,button{
   font-size: 18px;
   width: 226px;
 }
-.list-item >    .input-task {
+.list-item > .input-task {
   width: 226px;
 }
 .btn-delete .img-remove {
